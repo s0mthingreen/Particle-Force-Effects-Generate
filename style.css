@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.BG {
+  background-color: rgba(36, 36, 36, 0.335);
+  filter: alpha(opacity= 30);
+  opacity: 0.85;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  bottom: 50px;
+  right: 50px;
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity= 100);
+  opacity: 1;
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  color: white; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  
+}
+
+.controls {
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity= 0);
+  opacity: 1;
+  position: absolute;
+  left: 90px;
+  bottom: 80px;
+  color: white; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
+.pageControls {
+  position: absolute;
+  bottom: 80px;
+  right: 90px;
+  color: white; 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
+a{
+  color: rgb(255, 255, 255);
+}
